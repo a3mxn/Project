@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UABS: UNIFIED AUDIO BASED SYSTEMS</title>
     <link rel="stylesheet" href="UASBCSS.css">
 </head>
@@ -53,21 +56,21 @@
 
     </div>
     <div id="d3">
-        <img src="drumpage.jfif" id="d_img">
-        <h1> DRUMS</h1>
-        <div id="drumkit">        
-        <button class="drum">a</button>
-        <button class="drum">b</button>
-        <button class="drum">c</button><br>
-        <button class="drum">d</button>
-        <button class="drum">e</button>
-        <button class="drum">f</button><br>
-        <button class="drum">g</button>
-        <button class="drum">h</button>
-        <button class="drum">i</button>
-    </div>
-        
-</div>
+        <h1>GUITAR</h1>
+        <h3>Transposer</h3>
+
+        <div>
+            <input type="text" id="chord1" value="">
+            <input type="text" id="chord2"> 
+            <input type="text" id="chord3"> 
+            <input type="text" id="chord4"> 
+            <input type="text" id="chord5"> 
+            <button onclick="transposeUp()">+1</button>
+            <button>-1</button>
+            
+        </div>
+
+
     </div>
     <footer id="f1">
         <div>
@@ -82,10 +85,11 @@
                 <a><img src="youtube.png" height="60px" width="60px" class="social"></a>&nbsp;
             </div>
             <div id="d_f3">
-               CREDITS: UABS:UNIFIED AUDIO BASED SYSTEMS<br>
-				UMANSH BANSAL(umansh2390.be21@chitkara.edu.in)<br>
-				AMAN THAKUR(aman2417.be21@chitkara.edu.in)<br>
-				SHIVAM(shivam2378.be21@chitkara.edu.in)<br>
+                CREDITS: UABS:UNIFIED AUDIO BASED SYSTEMS<br>
+                UMANSH BANSAL(umansh2390.be21@chitkara.edu.in)<br>
+                AJITESH MADHU(ajitesh2272.be21@chitkara.edu.in)<br>
+                BHAVIK SINGLA(bhavik2430.be21@chitkara.edu.in)<br>
+                SARTHAK BAJAJ(sarthak2367.be21@chitkara.edu.in)<br>
 
             </div>
             
@@ -93,6 +97,7 @@
             
         </div>
     </footer>
+    <script src="./app.js"></script>
 </body>
 
 </html>

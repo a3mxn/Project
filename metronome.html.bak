@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UABS: UNIFIED AUDIO BASED SYSTEMS</title>
     <link rel="stylesheet" href="UASBCSS.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -53,21 +57,30 @@
 
     </div>
     <div id="d3">
-        <img src="drumpage.jfif" id="d_img">
-        <h1> DRUMS</h1>
-        <div id="drumkit">        
-        <button class="drum">a</button>
-        <button class="drum">b</button>
-        <button class="drum">c</button><br>
-        <button class="drum">d</button>
-        <button class="drum">e</button>
-        <button class="drum">f</button><br>
-        <button class="drum">g</button>
-        <button class="drum">h</button>
-        <button class="drum">i</button>
-    </div>
-        
-</div>
+        <h1>METRONOME</h1>
+        <div class="container">
+            <div class="metronome">
+                <div class="bpm-display">
+                    <span class="tempo">140</span>
+                    <span class="bpm">BPM</span>
+                </div>
+                <div class="tempo-text">Nice and steady</div>
+                <div class="tempo-settings">
+                    <div class="adjust-tempo-btn decrease-tempo">-</div>
+                    <input type="range" min="20" max="280" step="1" class="slider">
+                    <div class="adjust-tempo-btn increase-tempo">+</div>
+                </div>
+                <div class="start-stop">START</div>
+                <div class="measures">
+                    <div class="subtract-beats stepper">-</div>
+                    <div class="measure-count">4</div>
+                    <div class="add-beats stepper">+</div>
+                </div>
+                <span class="beats-per-measure-text">Beats per measure</span>
+            
+            </div>
+        </div>
+
     </div>
     <footer id="f1">
         <div>
@@ -82,10 +95,11 @@
                 <a><img src="youtube.png" height="60px" width="60px" class="social"></a>&nbsp;
             </div>
             <div id="d_f3">
-               CREDITS: UABS:UNIFIED AUDIO BASED SYSTEMS<br>
-				UMANSH BANSAL(umansh2390.be21@chitkara.edu.in)<br>
-				AMAN THAKUR(aman2417.be21@chitkara.edu.in)<br>
-				SHIVAM(shivam2378.be21@chitkara.edu.in)<br>
+                CREDITS: UABS:UNIFIED AUDIO BASED SYSTEMS<br>
+                UMANSH BANSAL(umansh2390.be21@chitkara.edu.in)<br>
+                AJITESH MADHU(ajitesh2272.be21@chitkara.edu.in)<br>
+                BHAVIK SINGLA(bhavik2430.be21@chitkara.edu.in)<br>
+                SARTHAK BAJAJ(sarthak2367.be21@chitkara.edu.in)<br>
 
             </div>
             
