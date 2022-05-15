@@ -1,0 +1,344 @@
+
+body{
+    background-color: black;
+    margin: 0;
+}
+header{
+    height: 100px;
+    width: 99%;
+    background-color:rgb(61,60,60);
+    border: 2px solid white;
+    display: block;
+    margin-left:0px;
+    margin-right:0px
+}
+#a1{
+    color:whitesmoke;
+    font-family:cursive;
+    font-size: 12px;
+    transform: scale(1.3);
+    
+    
+}
+#d1{
+    position:absolute;
+    left: 100px;
+    top: 20px;
+}
+#d2{border: 1px solid white;
+    height: 1500px;
+    width: 200px;
+    background-color: rgb(29, 27, 27);
+    color: black;
+    margin-left: 0px;
+}
+#t1{
+    height:200px;
+    width: 100%;
+    padding: 5px;
+    
+}
+.bs_1{
+    text-align: center;
+    font-family: cursive;
+    background-color: #ffc600;
+    border-radius:10px;
+    height: 100%;
+    width: 100%;
+    
+}
+#d3{
+    background-color:white;
+    height: 1480px;
+    width: 84%;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.bs_1:hover {background-color: white;
+transform: scale(1.08);
+}
+#a1:link{
+    text-decoration: none;
+    color: lightgrey;
+}
+#a1:hover{
+    text-decoration: bold;
+    font-size: 14px;
+    color: white;
+}
+#a1:visited{
+    text-decoration: none;
+    color: lightgrey;
+}
+#dh1{
+    position: absolute;
+    left: 200px;
+    top:50px;
+    color: white;
+    font-size: 20px;
+    word-spacing: 30px;
+    font-family: monospace;
+}
+.hb_1:link{color: white;
+    font-size: 20px;
+    word-spacing: 30px;
+    font-family: monospace;
+    text-decoration: none;
+}
+.hb_1:visited{color: white;
+    font-size: 20px;
+    word-spacing: 30px;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+#dh2{
+    position:absolute;
+    right: 200px;
+    top: 30px;
+    
+}
+#tx1{width: 100%;
+padding: 12px 12px;
+color: grey;
+margin: 8px;
+border-radius: 5px;
+border: 3px solid #ffc600;
+background-color: white;
+color: darkslategrey;
+transition: width 0.4s ease-in-out;
+font-family: cursive;
+}
+#b1{
+    background-color: #ffc600;
+    border-radius: 7px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: cursive;
+    position: absolute; 
+    right: -150px;
+    top:6px
+}
+#b1:hover {background-color: white;
+    transform: scale(1.08);}
+    
+#f1{
+    position: absolute;
+    height: 225px;
+    width: 98%;
+    background:linear-gradient(to right, black,grey);
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin-right:10px;
+    margin-left: 10px;
+    
+    
+
+
+}
+#d_f1{
+    position: absolute;
+    left: 250px;
+    bottom :100px;
+    color:white;
+    font-family: monospace;
+    font-size: 30px;
+}
+#d_f2{
+    bottom:40px;
+    display: flex;
+    position: absolute;
+    justify-content: baseline;
+    left: 250px;
+}
+#home_1:hover{
+    filter: opacity(70%);
+    filter: brightness(20%);
+    
+    
+
+}
+#home_1:hover + #home_2{
+    display: block;
+}
+#gets_1{
+    background-color: transparent;
+    color: white;
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    font-family: cursive;
+    border:2px solid white;
+    position: absolute;
+    left:70px;
+    top: 600px;
+    
+}
+#gets_1:hover{
+    background-color: #ffc600;
+    color: black;
+    font-family: cursive;
+    font-size: 25px;
+    
+}
+#home_2{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    -webkit-text-stroke: 1 black;
+    display: none;
+}
+#home_5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    height: 100%;
+    
+    
+
+}
+.fig_c{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    
+}
+.home_img{ border: 3px solid white;
+    border-radius: 10px;
+
+    
+}
+.home_img:hover{height:400px;
+    width: 450px;
+    border: 6px solid white;
+    border-radius: 20px;
+
+}
+#home_1{
+    border-bottom: 2px;
+    border-color: white;
+    border-radius: 15px;
+}
+.social:hover{
+    height: 100px;
+    width:100px;
+
+}
+#d_f3{
+    position: absolute;
+    right :50px;
+    bottom: 50px; 
+    font-size: 16px;
+    font-family: monospace;
+    word-spacing: 1px;   
+}
+
+.drum{
+    height :200px;
+    width: 200px;
+    border: solid grey;
+    background-color: grey;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+#drumkit{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: row;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.drum:hover{
+    background-color: #ffc600;
+    height: 205px;
+    width: 205px;
+    border-bottom: grey;
+    border-right: grey;
+    border-top: none;
+    border-left: none;
+    border-style: groove;
+    border-width: 10px;
+}
+#d_img{
+    width: 100%;
+    height: 400px;
+
+}
+#piano{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:50px;
+    top:200px;
+    border-top-left-radius: 10px;
+}
+.p1{
+    height:250px;
+    margin: 0px;
+    width: 50px;
+    background-image: radial-gradient(white ,silver);
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: cursive;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;  
+}
+.p2{
+    background-image:radial-gradient(#232B2B,black) ;
+    color: azure;
+    height: 170px;
+    width:40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: cursive;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;  
+}
+#pcover{
+    width:1090px;
+    background-color: black;
+    color:white;
+    height: 315px;
+    position: absolute;
+    left :30px;
+    top :140px;
+    border-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    border-style: groove;
+    border-width: 5px;
+}
+#pouter {
+    position: relative;
+}
+
+
+
+
+
